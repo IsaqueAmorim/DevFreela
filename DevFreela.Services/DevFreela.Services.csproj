@@ -1,5 +1,19 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
+  <ItemGroup>
+    <ProjectReference Include="DevFreela.Domain.csproj" />
+    <ProjectReference Include="DevFreela.Infra.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="InputModels\" />
+    <Folder Include="Services\Implementations\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Services\Implementations\IProjectServices.cs" />
+  </ItemGroup>
+
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
