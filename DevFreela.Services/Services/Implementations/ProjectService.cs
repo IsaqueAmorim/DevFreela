@@ -6,10 +6,10 @@ using DevFreela.Services.ViewModels;
 
 namespace DevFreela.Services.Services.Implementations
 {
-    public class ProjectServices : IProjectServices
+    public class ProjectService : IProjectService
     {
         private DevFreelaDbContext _context;
-        public ProjectServices(DevFreelaDbContext devFreelaDbContext)
+        public ProjectService(DevFreelaDbContext devFreelaDbContext)
         {
             _context = devFreelaDbContext;
         }

@@ -3,7 +3,7 @@ using DevFreela.Services.ViewModels;
 
 namespace DevFreela.Services.Services.Interfaces
 {
-    public interface IProjectServices
+    public interface IProjectService
     {
         List<ProjectViewModel> GetAll();
         ProjectDetailsViewModel GetById(Guid id);
