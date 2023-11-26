@@ -7,7 +7,7 @@
             
         }
 
-        public Guid ID { get; private set; }
+        public Guid Id { get; private set; }
     }
 }
     

@@ -1,8 +1,8 @@
-﻿namespace DevFreela.Domain.Entities.User
+﻿namespace DevFreela.Domain.Entities
 {
     public class Skill : BaseEntity
     {
-        public Skill(string description, DateTime createdAt)
+        public Skill(string description)
         {
             Description = description;
             CreatedAt = DateTime.Now;

@@ -7,6 +7,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Folder Include="Entities\User\InputModel\" />
+    <Folder Include="Entities\User\ViewModel\" />
     <Folder Include="Exceptions\" />
     <Folder Include="Repositories\" />
   </ItemGroup>

@@ -29,7 +29,7 @@ namespace DevFreela.Domain.Entities.User
         public DateTime CreatedAt { get; private set; }
 
         public List<UserSkill> Skills { get; private set; }
-        public List<Projects> OwnedProjects { get; private set; }
-        public List<Projects> FreelanceProjects { get; private set; }
+        public List<Project.Project> OwnedProjects { get; private set; }
+        public List<Project.Project> FreelanceProjects { get; private set; }
     }
 }

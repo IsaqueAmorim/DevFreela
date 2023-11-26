@@ -1,8 +1,8 @@
 ﻿namespace DevFreela.Domain.Entities.Project
 {
-    public class ProjectComments : BaseEntity
+    public class ProjectComment : BaseEntity
     {
-        public ProjectComments(string content, Guid iDProject, Guid iDUser)
+        public ProjectComment(string content, Guid iDProject, Guid iDUser)
         {
             Content = content;
             IDProject = iDProject;

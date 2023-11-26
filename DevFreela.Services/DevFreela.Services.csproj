@@ -1,17 +1,12 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
-    <ProjectReference Include="DevFreela.Domain.csproj" />
-    <ProjectReference Include="DevFreela.Infra.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="InputModels\" />
-    <Folder Include="Services\Implementations\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <Compile Remove="Services\Implementations\IProjectServices.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DevFreela.Domain\DevFreela.Domain.csproj" />
+    <ProjectReference Include="..\DevFreela.Infra\DevFreela.Infra.csproj" />
   </ItemGroup>
 
   <PropertyGroup>

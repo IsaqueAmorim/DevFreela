@@ -1,4 +1,5 @@
-﻿using DevFreela.Services.ViewModels;
+﻿using DevFreela.Services.InputModels;
+using DevFreela.Services.ViewModels;
 
 namespace DevFreela.Services.Services.Interfaces
 {

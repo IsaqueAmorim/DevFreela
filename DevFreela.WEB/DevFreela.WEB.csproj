@@ -1,16 +1,17 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
 
-  <ItemGroup>
-    <ProjectReference Include="DevFreela.Domain.csproj" />
-    <ProjectReference Include="DevFreela.Infra.csproj" />
-    <ProjectReference Include="DevFreela.Services.csproj" />
-  </ItemGroup>
-
 
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
+
+
+  <ItemGroup>
+    <ProjectReference Include="..\DevFreela.Domain\DevFreela.Domain.csproj" />
+    <ProjectReference Include="..\DevFreela.Infra\DevFreela.Infra.csproj" />
+    <ProjectReference Include="..\DevFreela.Services\DevFreela.Services.csproj" />
+  </ItemGroup>
 
 </Project>
